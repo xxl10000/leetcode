@@ -30,7 +30,7 @@ public:
 	{
 		return *(int *)a - *(int *)b;
 	}*/
-	/*vector<int> twoSum(vector<int>& nums, int target) {
+	vector<int> twoSum(vector<int>& nums, int target) {
 		unordered_map<int, int> mymap;
 		vector<int> V;
 		int Number2;
@@ -55,8 +55,10 @@ public:
 		throw new logic_error("No two sum solution");
 
 
-	}*/
-	vector<int> twoSum(vector<int>& nums, int target) {
+	}
+
+	//can't sort!!
+	/*vector<int> twoSum(vector<int>& nums, int target) { 
 		sort(nums.begin(), nums.end());
 		int l = 0, r = nums.size() - 1;
 		while (l < r)
@@ -77,7 +79,7 @@ public:
 		throw new logic_error("NULL");
 
 
-	}
+	}*/
 
 };
 
