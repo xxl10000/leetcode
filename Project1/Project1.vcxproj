@@ -115,6 +115,43 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1.cpp" />
+    <ClCompile Include="100.cpp" />
+    <ClCompile Include="11.cpp" />
+    <ClCompile Include="12.cpp" />
+    <ClCompile Include="13.cpp" />
+    <ClCompile Include="14.cpp" />
+    <ClCompile Include="15.cpp" />
+    <ClCompile Include="2.cpp" />
+    <ClCompile Include="20.cpp" />
+    <ClCompile Include="21.cpp" />
+    <ClCompile Include="26.cpp" />
+    <ClCompile Include="27.cpp" />
+    <ClCompile Include="29.cpp" />
+    <ClCompile Include="3.cpp" />
+    <ClCompile Include="35.cpp" />
+    <ClCompile Include="38.cpp" />
+    <ClCompile Include="5.cpp" />
+    <ClCompile Include="53.cpp" />
+    <ClCompile Include="58.cpp" />
+    <ClCompile Include="6.cpp" />
+    <ClCompile Include="66.cpp" />
+    <ClCompile Include="69.cpp" />
+    <ClCompile Include="7.cpp" />
+    <ClCompile Include="70.cpp" />
+    <ClCompile Include="8.cpp" />
+    <ClCompile Include="83.cpp" />
+    <ClCompile Include="88.cpp" />
+    <ClCompile Include="9.cpp" />
+    <ClCompile Include="dynamic.cpp" />
+    <ClCompile Include="Templeate.cpp" />
+    <ClCompile Include="try.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project1.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
